@@ -1,0 +1,28 @@
+# Secretos
+.env
+*.env
+!.env.example
+
+# Datos (confidenciales / pesados): nunca se versionan
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos pesados o de trabajo
+*.db
+*.sqlite
+*.npy
+*.parquet
